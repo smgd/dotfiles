@@ -1,0 +1,28 @@
+#!/usr/bin/sh
+
+choices="Lock\nLogout\nRestart\nShutdown\nHibernate\nSuspend"
+locker="$HOME/.config/i3/scripts/rlock.sh && sleep 1"
+
+#chosen=$(echo -e "$choices" | dmenu -i)
+chosen=$(echo -e "$choices" | rofi -dmenu -p "" -l 6 -i)
+
+case $chosen in
+    "Logout")
+        i3-msg exit
+        ;;
+    "Lock")
+        $locker
+        ;;
+    "Restart")
+        systemctl reboot
+        ;;
+    "Shutdown")
+        systectl poweroff -i
+        ;;
+    "Hibernate")
+        $locker && systemctl hibernate
+        ;;
+    "Suspend")
+        $locker && systemctl suspend
+        ;;
+esac

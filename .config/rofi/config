@@ -1,0 +1,9 @@
+rofi.show-icons: true
+rofi.font: Roboto 12
+
+rofi.display-drun:
+rofi.display-run:
+
+rofi.theme: /home/soapman/.local/share/rofi/themes/base16-xcode-dusk.rasi
+
+
