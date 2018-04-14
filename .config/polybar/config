@@ -306,7 +306,7 @@ ramp-volume-2 = ""
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC
 full-at = 99
 poll-interval = 5
 
