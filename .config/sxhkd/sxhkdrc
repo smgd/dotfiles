@@ -157,4 +157,5 @@ Print
 shift + Print
     gnome-screenshot -a
 
-
+super + Pause
+    $HOME/.config/polybar/launchbspwm.sh
