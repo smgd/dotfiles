@@ -14,4 +14,5 @@ my config files
 * rofi
 
 ### screenshot
-(https://raw.githubusercontent.com/smgd/dotfiles/master/screenshot.png "scrot")
+
+![scrot](https://raw.githubusercontent.com/smgd/dotfiles/master/screenshot.png "scrot")
