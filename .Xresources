@@ -7,6 +7,12 @@ URxvt.font:xft:Source Code Pro:size=11:antialias=true:hinting=true
 URxvt*termName:         rxvt-256color
 
 
+URxvt.perl-ext-common:  resize-font
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
+
 
 *fading:                  40
 *fadeColor:               #181b20
